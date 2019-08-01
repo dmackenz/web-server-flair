@@ -538,6 +538,7 @@ class WebServer:
         # Clear the query parameters
         self.__clear_query_params()
 
+    # The thread connection handler
     def __handle_single_connection(self, req_socket):
 
         # Get a file to write to
